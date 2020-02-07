@@ -59,10 +59,12 @@ h6 {
   background-image: url("assets/images/darkerWeedGrid4.jpg");
   object-position: center top;
   object-position: 100px 50px;
+  padding: 3rem;
 }
 
 .modal-header {
   background-color: #4C7002;
+  border: none;
 }
 
 .modal-footer {
@@ -78,4 +80,9 @@ h6 {
 
 .modal-title {
   font-size: 3rem;
+}
+
+.btn-default {
+  background-color: #4C7002;
+  color: white;
 }
