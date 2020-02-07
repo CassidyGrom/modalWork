@@ -2,14 +2,12 @@
 
   border: solid darkgreen 8px;
   color: white;
-  font-family: "Staatliches",
-    "arial";
-  font-weight: 400;
-  font-style: normal;
+  font-family: raleway,
+    sans-serif;
 }
 
 .modal-body {
-  background-image: url("assets/images/darkerWeedGrid3.jpg");
+  background-image: url("assets/images/darkerWeedGrid4.jpg");
   object-position: center top;
   object-position: 100px 50px;
 }
