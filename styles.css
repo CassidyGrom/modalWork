@@ -1,12 +1,17 @@
 .modal-content {
-  background-image: url("assets/images/dark-triangles.png");
-  object-fit: fill;
+
   border: solid darkgreen 8px;
   color: white;
   font-family: "Staatliches",
     "arial";
   font-weight: 400;
   font-style: normal;
+}
+
+.modal-body {
+  background-image: url("assets/images/darkerWeedGrid3.jpg");
+  object-position: center top;
+  object-position: 100px 50px;
 }
 
 .modal-header {
