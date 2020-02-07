@@ -1,0 +1,24 @@
+.modal-content {
+  background-image: url("assets/images/dark-triangles.png");
+  object-fit: fill;
+  border: solid darkgreen 8px;
+  color: white;
+  font-family: "Staatliches",
+    "arial";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.modal-header {
+  background-color: darkgreen;
+
+}
+
+.close {
+  color: white;
+  z-index: 10;
+}
+
+.modal-title {
+  font-size: 5rem;
+}
