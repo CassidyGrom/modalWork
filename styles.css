@@ -5,7 +5,8 @@ h1 {
   font-style: italic;
   font-size: 5rem;
   padding: 0px;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 1rem;
 }
 
 h2 {
@@ -16,13 +17,39 @@ h2 {
   font-size: 4rem;
   padding-bottom: 0px;
   padding-top: 2rem;
-  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
 }
+
+h5 {
+  font-family: raleway,
+    sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0px;
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h6 {
+  font-family: raleway,
+    sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
 
 
 .modal-content {
 
-  border: solid darkgreen 8px;
+  border: solid #4C7002 8px;
   color: white;
   font-family: raleway,
     sans-serif;
@@ -35,8 +62,13 @@ h2 {
 }
 
 .modal-header {
-  background-color: darkgreen;
+  background-color: #4C7002;
+}
 
+.modal-footer {
+  border-top: none;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .close {
